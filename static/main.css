@@ -1,0 +1,22 @@
+html {
+    background-color: black;
+}
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid red;
+    background-color: #111111;
+    height: 200px;
+    width: 500px;
+    display: flex;
+}
+img {
+    height: 150px;
+    margin: 25px;
+}
+iframe {
+    flex-grow: 1;
+    border: none;
+}

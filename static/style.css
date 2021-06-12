@@ -1,0 +1,18 @@
+label {
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+    font-family: "Courier", monospace;
+}
+input {
+    border: 2px solid red;
+    background: transparent;
+    color: white;
+    font-family: "Courier", monospace;
+    width: 200px;
+}
+h2 {
+    font-family: "Courier", monospace;
+    font-size: 20px;
+    color: red;
+}

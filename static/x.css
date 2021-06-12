@@ -1,0 +1,92 @@
+x-error {
+    display: block;
+    border: 2px solid red;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: red;
+    font-family: "Courier", monospace;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+x-paragraph {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Courier", monospace;
+    color: red;
+}
+x-info {
+    display: block;
+    font-family: "Courier", monospace;
+    color: red;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+x-menu {
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid red;
+}
+x-menu-element {
+    display: block;
+    border: 2px solid red;
+    border-bottom: none;
+    font-family: "Courier", monospace;
+    color: red;
+    padding: 2px;
+}
+x-menu-element:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+x-title {
+    display: block;
+    border: 2px solid red;
+    text-align: center;
+    width: 100%;
+    color: red;
+    font-family: "Courier", monospace;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+label > input[type="file"] {
+    display: none;
+}
+.x-input-file-label {
+    display: block;
+    border: 2px solid red;
+    color: red;
+    font-family: "Courier", monospace;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+x-input-file-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+x-input-file-show {
+    display: block;
+    color: red;
+    font-family: "Courier", monospace;
+    width: 250px;
+    overflow-wrap: break-word;
+    font-size: 15px;
+}
+x-input-file-section input {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0px;
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    border: none;
+}
